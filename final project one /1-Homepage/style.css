@@ -1,5 +1,6 @@
 /* NAV  BAR*/
 
+/* search */
 .locationdrop{
     font-family: 'Marion';
     font-style: normal;
@@ -66,7 +67,7 @@
         left: 10vw;
     }
 }
-
+/* search */
 /**/
 
 
@@ -357,20 +358,16 @@
 
 
 /* SLIDESHOW */
+
+/*carousel*/
 .carousel-item{
     position: relative;
-    height: 100%;
-    background: brown;
     background: rgba(249, 241, 227, 0.5);
 }
 
-.container{
-    position:absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
+/*carousel*/
 
+/*carousel text*/
 #headertext{
     position: absolute;
     top: 30%;
@@ -470,7 +467,7 @@
         text-align: center;
     }
 }
-
+/*carousel text*/
 
 .button{
     display: flex;
@@ -489,288 +486,12 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 365px){
-    .button{
-        position:absolute;
-        width: 60pt;
-        top: 102%;
-        left: 15%;
-
-        font-size: 3vw;
-        line-height: 30px;
-        text-align: center;
-    }
-}
-
-@media (max-width: 1000px){
-    .button{
-        position:absolute;
-        width: 60pt;
-        top: 75%;
-        left: 20%;
-
-        line-height: 30px;
-        text-align: center;
-    }
-}
-
-@media (max-width: 1000px){
-    .button{
-        position:absolute;
-        width: 60pt;
-        top: 65%;
-        left: 20%;
-
-        line-height: 30px;
-        text-align: center;
-    }
-}
 /* end of SLIDESHOW */
 
 
 
 
 
-
-
-
-
-/* LATEST LAUNCH */
-
-
-.latestLaunch{
-    position:absolute;
-    top:108%;
-
-    font-family: 'Marion';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    /* or 125% */
-
-    color: #000000;
-}
-
-@media (max-width: 365px){
-    .latestLaunch{
-        font-size: 7vw;
-        text-align: center;
-        padding:99px;
-    }
-}
-
-.emptyBox{
-    position: absolute;
-    top: 110%;
-    left: 0;
-    width: 30%;
-    height: 60%;
-    display: flex;
-    
-    background: rgba(249, 241, 227, 0.5);
-}
-
-@media (max-width: 1000px){
-    .emptyBox{
-    position: absolute;
-    height: 30%;
-    width: 25%;
-    }
-}
-
-.imslaunch{
-    position: absolute;
-    left: 25%;
-    top: 130%;
-    display: flex;
-}
-
-@media (max-width: 300px){
-    .imslaunch{
-    position: absolute;
-    left: 1%;
-    display: flex;
-    }
-}
-
-.captionbrand{
-    position: absolute;
-    top: 140%;
-    left: 70%;
-
-    font-family: 'Marion';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 30px;
-    /* identical to box height, or 125% */
-    display: flex;
-    align-items: flex-end;
-
-    color: #000000;
-}
-
-@media (max-width: 365px){
-    .captionbrand{
-        left:29vw;
-        top: 10%;
-        font-size: 6vw;
-       
-    }
-}
-
-@media (max-width: 1100px){
-    .captionbrand{
-        left:68vw;
-    }
-}
-
-.captionheader{
-    position: absolute;
-    top: 150%;
-    left: 66%;
-    
-    font-family: 'Marion';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 30px;
-
-    display: flex;
-    align-items: flex-end;
-
-    color: #000000;
-}
-
-@media (max-width: 365px){
-    .captionheader{
-        left:10vw;
-        top: 1230px;
-        font-size: 11vw;
-    }
-}
-
-@media (max-width: 1100px){
-    .captionheader{
-        left:60vw;
-        font-size: 5vw;
-    }
-}
-
-.captioninsidesquare{
-    position: absolute;
-    top: 158%;
-    left: 72%;
-}
-
-@media (max-width: 365px){
-    .captioninsidesquare{
-        left:35vw;
-        top: 100%;
-        
-    }
-}
-
-
-
-@media (max-width: 365px){
-    .captioninsidesquare{
-        left:0vw;
-        
-    }
-}
-/* end of LATEST LAUNCH */
-
-
-
-
-
-
-
-
-
-/*OUR BRANDS*/
-.ourbrands{
-    position:absolute;
-    top:203%;
-
-    font-family: 'Marion';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    /* or 125% */
-
-    color: #000000;
-}
-
-@media (max-width: 365px){
-    .latestLaunch{
-        font-size: 7vw;
-        text-align: center;
-        padding:99px;
-    }
-}
-
-.line {
-    position: absolute;
-    top: 195%;
-    width: 100%;
-
-}
-@media(max-width: 1000px){
-    .line {
-    position: absolute;
-    top: 185%;
-    width: 100%;
-    }
-}
-
-
-.contenttriple{
-    position: absolute;
-    top: 1600px;
-
-
-    font-family: 'Marion';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    /* identical to box height, or 139% */
-
-    text-align: center;
-    color: #000000;
-
-}
-
-@media (max-width: 365px){
-    .contenttriple{
-        position: absolute;
-        top: 1500px;
-        left:1px;
-    }
-}
-
-.evensmallertext{
-
-    font-family: 'Caviar Dreams';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    /* or 125% */
-
-    /* Gray 2 */
-    color: #4F4F4F;
-
-}
-
-
-.arrowright{
-    padding: 4px 4px;
-}
-
-/*end of OUR BRANDS*/
 
 
 

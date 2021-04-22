@@ -357,27 +357,27 @@
 
 
 
-/* SLIDESHOW */
+/* carousel */
 
-/*carousel*/
+/* carousel container */
 .carousel-item{
     position: relative;
     background: rgba(249, 241, 227, 0.5);
 }
 
-/*carousel*/
 
-/*carousel text*/
+/*carousel one */
+/*carousel one col left text*/
 #headertext{
     position: absolute;
     top: 30%;
-    left: 10%;
+    left: 20%;
 
     font-family: 'Marion';
     font-style: normal;
     font-weight: normal;
-    font-size: 64px;
-    line-height: 70px;
+    font-size: 90px;
+    line-height: 110px;
     /* or 109% */
     display: flex;
     align-items: flex-end;
@@ -386,40 +386,31 @@
     color: #000000;;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 2391px){
     #headertext{
         position:absolute;
-        top: 40%;
-        left: 10%;
-
-        font-size: 35px;
-        line-height: 30px;
-        text-align: center;
+        font-size: 80px;
+        line-height: 110px;
     }
 }
 
-@media (max-width: 365px){
+@media (max-width: 1815px){
     #headertext{
         position:absolute;
-        top: 85%;
-        left: 15%;
-
-        font-size: 30px;
-        line-height: 30px;
-        text-align: center;
+        font-size: 80px;
     }
 }
 
 #headercaption{
     position: absolute;
     width: 100%;
-    left: 10%;
-    top: 55%;
+    left: 20%;
+    top: 50%;
 
     font-family: 'Caviar Dreams';
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 32px;
     line-height: 30px;
     /* or 125% */
     display: flex;
@@ -429,64 +420,23 @@
     color: #000000;
 }
 
-@media (max-width: 365px){
-    #headercaption{
-        position:absolute;
-        width:100%;
-        top: 95%;
-        left: 15%;
-
-        font-size: 3vw;
-        line-height: 30px;
-        text-align: center;
-    }
-}
-
-@media (max-width: 800px){
-    #headercaption{
-        position:absolute;
-        width:100%;
-        top: 65%;
-        left: 10%;
-
-        font-size: 10pt;
-        line-height: 30px;
-        text-align: center;
-    }
-}
-
-@media (max-width: 1000px){
-    #headercaption{
-        position:absolute;
-        width:100%;
-        top: 54%;
-        left: 10%;
-
-        font-size: 10pt;
-        line-height: 30px;
-        text-align: center;
-    }
-}
 /*carousel text*/
-
-.button{
+.cbut{
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 2px 16px;
 
     position: absolute;
     width: 100px;
     height: 34px;
-    left: 10%;
-    top: 65%;
+    left: 20%;
+    top: 58%;
 
     /* Gray 1 */
     border: 1px solid #333333;
     box-sizing: border-box;
 }
-
-/* end of SLIDESHOW */
+/* end of carousel */
 
 
 

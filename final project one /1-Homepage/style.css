@@ -368,10 +368,10 @@
 
 /*carousel one */
 /*carousel one col left text*/
-#headertext{
+#headertext{ /*HEADER*/
     position: absolute;
     top: 30%;
-    left: 20%;
+    left: 15%;
 
     font-family: 'Marion';
     font-style: normal;
@@ -386,7 +386,7 @@
     color: #000000;;
 }
 
-@media (max-width: 2391px){
+@media (max-width: 2391px){ /*HEADER*/
     #headertext{
         position:absolute;
         font-size: 80px;
@@ -394,17 +394,174 @@
     }
 }
 
-@media (max-width: 1815px){
+@media (max-width: 1815px){ /*HEADER*/
     #headertext{
         position:absolute;
-        font-size: 80px;
+        font-size: 70px;
+        line-height: 90px;
+
     }
 }
 
-#headercaption{
+@media (max-width: 1525px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 60px;
+        line-height: 60px;
+        left: 15%;
+
+    }
+}
+
+
+@media (max-width: 900px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 50px;
+        line-height: 40px;
+        left: 15%;
+
+    }
+}
+
+@media (max-width: 877px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 45px;
+        line-height: 40px;
+        left: 15%;
+
+    }
+}
+
+@media (max-width: 680px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 35px;
+        line-height: 40px;
+        left: 12%;
+
+    }
+}
+
+@media (max-width: 583px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 30px;
+        line-height: 30px;
+        left: 12%;
+
+    }
+}
+
+@media (max-width: 573px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 30px;
+        line-height: 30px;
+        left: 12%;
+
+    }
+}
+
+@media (max-width: 527px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 15px;
+        line-height: 15px;
+        left: 12%;
+
+    }
+}
+
+
+@media (max-width: 583px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 35px;
+        line-height: 30px;
+        left: 12%;
+
+    }
+}
+
+
+@media (max-width: 509px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 30px;
+        line-height: 30px;
+        left: 12%;
+
+    }
+}
+
+@media (max-width: 449px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 25px;
+        line-height: 20px;
+        left: 12%;
+
+    }
+}
+
+@media (max-width: 413px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 20px;
+        line-height: 20px;
+        left: 12%;
+
+    }
+}
+
+
+@media (max-width: 301px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 15px;
+        line-height: 15px;
+        left: 15%;
+
+    }
+}
+
+@media (max-width: 227px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 13px;
+        line-height: 13px;
+        left: 15%;
+
+    }
+}
+
+@media (max-width: 191px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 10px;
+        line-height: 10px;
+        left: 15%;
+
+    }
+}
+
+@media (max-width: 147px){ /*HEADER*/
+    #headertext{
+        position:absolute;
+        font-size: 8px;
+        line-height: 8px;
+        left: 15%;
+
+    }
+}
+
+
+#headercaption{ /*Caption*/
     position: absolute;
     width: 100%;
-    left: 20%;
+    left: 15%;
     top: 50%;
 
     font-family: 'Caviar Dreams';
@@ -419,6 +576,155 @@
 
     color: #000000;
 }
+
+@media (max-width: 2219px){ /*CAPTION*/
+    #headercaption{
+        position:absolute;
+        font-size: 28px;
+        line-height: 30px;
+        left: 15%;
+        top: 51%;
+
+    }
+}
+
+@media (max-width: 2100px){ /*CAPTION*/
+    #headercaption{
+        position:absolute;
+        font-size: 25px;
+        line-height: 25px;
+        left: 15%;
+        top: 52%;
+
+    }
+}
+
+@media (max-width: 2005px){ /*CAPTION*/
+    #headercaption{
+        position:absolute;
+        font-size: 25px;
+        line-height: 25px;
+        left: 15%;
+        top: 52%;
+
+    }
+}
+
+@media (max-width: 1899px){ /*CAPTION*/
+    #headercaption{
+        position:absolute;
+        font-size: 25px;
+        line-height: 25px;
+        left: 15%;
+        top: 53%;
+
+    }
+}
+
+
+@media (max-width: 1850px){ /*CAPTION*/
+    #headercaption{
+        position:absolute;
+        font-size: 24px;
+        line-height: 25px;
+        left: 15%;
+        top: 53%;
+
+    }
+}
+
+@media (max-width: 1820px){ /*CAPTION*/
+    #headercaption{
+        position:absolute;
+        font-size: 20px;
+        line-height: 25px;
+        left: 15%;
+        top: 52%;
+
+    }
+}
+
+@media (max-width: 1797px){ /*CAPTION*/
+    #headercaption{
+        position:absolute;
+        font-size: 20px;
+        line-height: 20px;
+        left: 15%;
+        top: 51%;
+
+    }
+}
+
+@media (max-width: 1565px){ /*CAPTION*/
+    #headercaption{
+        position:absolute;
+        font-size: 20px;
+        line-height: 20px;
+        left: 15%;
+        top: 51%;
+
+    }
+}
+
+@media (max-width: 1377px){ /*CAPTION*/
+    #headercaption{
+        position:absolute;
+        font-size: 20px;
+        line-height: 20px;
+        left: 15%;
+        top: 51%;
+
+    }
+}
+
+@media (max-width: 1349px){ /*CAPTION*/
+    #headercaption{
+        position:absolute;
+        font-size: 20px;
+        line-height: 20px;
+        left: 12%;
+        top: 54%;
+
+    }
+}
+
+@media (max-width: 1179px){ /*CAPTION*/
+    #headercaption{
+        position:absolute;
+        font-size: 20px;
+        line-height: 20px;
+        left: 12%;
+        top: 54%;
+
+    }
+}
+
+@media (max-width: 1023px){ /*CAPTION*/
+    #headercaption{
+        position:absolute;
+        font-size: 20px;
+        line-height: 20px;
+        left: 12%;
+        top: 55%;
+
+    }
+}
+
+
+@media (max-width: 915px){ /*CAPTION*/
+    #headercaption{
+        position:absolute;
+        font-size: 18px;
+        line-height: 20px;
+        left: 12%;
+        top: 58%;
+
+    }
+}
+
+
+
+
 
 /*carousel text*/
 .cbut{
